@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MDCat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/iqb-berlin/mdc-schemadefinition/master/mdc.xsd"
+       id="" version="1.0.0" versionhistory="">
+  <Label xml:lang="de">Katalog des IQB für Aufgaben und Items, speziell Bildungsstandards</Label>
+  <Owner xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</Owner>
+  <License>CC BY-SA 4.0</License>
+  <MDDef id="1" type="textde">
+    <Label xml:lang="de">Dummy Aufgabe</Label>
+    <Description xml:lang="de"/>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+    </MDDefMetadata>
+  </MDDef>
+  <MDDef id="2" type="textde">
+    <Label xml:lang="de">Dummy Item</Label>
+    <Description xml:lang="de"/>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+    </MDDefMetadata>
+  </MDDef>
+</MDCat>
