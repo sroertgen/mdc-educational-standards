@@ -5,18 +5,182 @@
   <Label xml:lang="de">Katalog des IQB für Aufgaben und Items, speziell Bildungsstandards</Label>
   <Owner xml:lang="de">IQB - Institut zur Qualitätsentwicklung im Bildungswesen</Owner>
   <License>CC BY-SA 4.0</License>
-  <MDDef id="1" type="textde">
-    <Label xml:lang="de">Dummy Aufgabe</Label>
-    <Description xml:lang="de"/>
+  <MDDef id="1" type="listmultiselect">
+    <Label xml:lang="de">Bildungsstandards Ma allgemein HSA/MSA</Label>
+    <Description xml:lang="de">
+      Allgemeine Bildungsstandards im Fach Mathematik für den Hauptschulabschluss (2004) und Mittleren Schulabschluss (2003)
+    </Description>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">8</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
     </MDDefMetadata>
+    <Value id="1"><Label xml:lang="de">K1</Label><Description xml:lang="de">Mathematisch argumentieren</Description></Value>
+    <Value id="2"><Label xml:lang="de">K2</Label><Description xml:lang="de">Probleme mathematisch lösen</Description></Value>
+    <Value id="3"><Label xml:lang="de">K3</Label><Description xml:lang="de">Mathematisch modellieren</Description></Value>
+    <Value id="4"><Label xml:lang="de">K4</Label><Description xml:lang="de">Mathematische Darstellungen verwenden</Description></Value>
+    <Value id="5"><Label xml:lang="de">K5</Label><Description xml:lang="de">Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen</Description></Value>
+    <Value id="6"><Label xml:lang="de">K6</Label><Description xml:lang="de">Mathematisch kommunizieren</Description></Value>
   </MDDef>
-  <MDDef id="2" type="textde">
-    <Label xml:lang="de">Dummy Item</Label>
-    <Description xml:lang="de"/>
+  <MDDef id="2" type="listmultiselect">
+    <Label xml:lang="de">Bildungsstandards Ma inhaltsbezogen Primar</Label>
+    <Description xml:lang="de">
+      Inhaltsbezogene Bildungsstandards im Fach Mathematik für den Primarbereich (2004)
+    </Description>
     <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">7</MD>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
     </MDDefMetadata>
+    <Value id="1"><Label xml:lang="de">0</Label><Description xml:lang="de">Grundlegende Fertigkeiten</Description></Value>
+    <Value id="2"><Label xml:lang="de">1</Label><Description xml:lang="de">Problemlösen</Description></Value>
+    <Value id="3"><Label xml:lang="de">1.1</Label><Description xml:lang="de">mathematische Kenntnisse, Fertigkeiten und Fähigkeiten bei der Bearbeitung problemhaltiger Aufgaben anwenden</Description></Value>
+    <Value id="4"><Label xml:lang="de">1.2</Label><Description xml:lang="de">Lösungsstrategien entwickeln und nutzen (z.B. systematisch probieren)</Description></Value>
+    <Value id="5"><Label xml:lang="de">1.3</Label><Description xml:lang="de">Zusammenhänge erkennen, nutzen und auf ähnliche Sachverhalte übertragen</Description></Value>
+    <Value id="6"><Label xml:lang="de">2</Label><Description xml:lang="de">Kommunizieren</Description></Value>
+    <Value id="7"><Label xml:lang="de">2.1</Label><Description xml:lang="de">eigene Vorgehensweisen beschreiben, Lösungswege anderer verstehen und gemeinsam darüber reflektieren</Description></Value>
+    <Value id="8"><Label xml:lang="de">2.2</Label><Description xml:lang="de">mathematische Fachbegriffe und Zeichen sachgerecht verwenden</Description></Value>
+    <Value id="9"><Label xml:lang="de">2.3</Label><Description xml:lang="de">Aufgaben gemeinsam bearbeiten, dabei Verabredungen treffen und einhalten</Description></Value>
+    <Value id="10"><Label xml:lang="de">3</Label><Description xml:lang="de">Argumentieren</Description></Value>
+    <Value id="11"><Label xml:lang="de">3.1</Label><Description xml:lang="de">mathematische Aussagen hinterfragen und auf Korrektheit prüfen</Description></Value>
+    <Value id="12"><Label xml:lang="de">3.2</Label><Description xml:lang="de">mathematische Zusammenhänge erkennen und Vermutungen entwickeln</Description></Value>
+    <Value id="13"><Label xml:lang="de">3.3</Label><Description xml:lang="de">Begründungen suchen und nachvollziehen</Description></Value>
+    <Value id="14"><Label xml:lang="de">4</Label><Description xml:lang="de">Modellieren</Description></Value>
+    <Value id="15"><Label xml:lang="de">4.1</Label><Description xml:lang="de">Sachtexten und anderen Darstellungen der Lebenswirklichkeit die relevanten Informationen entnehmen</Description></Value>
+    <Value id="16"><Label xml:lang="de">4.2</Label><Description xml:lang="de">Sachprobleme in die Sprache der Mathematik übersetzen, innermathematisch lösen und diese Lösungen auf die Ausgangssituation beziehen</Description></Value>
+    <Value id="17"><Label xml:lang="de">4.3</Label><Description xml:lang="de">zu Termen, Gleichungen und bildlichen Darstellungen Sachaufgaben formulieren</Description></Value>
+    <Value id="18"><Label xml:lang="de">5</Label><Description xml:lang="de">Darstellen</Description></Value>
+    <Value id="19"><Label xml:lang="de">5.1</Label><Description xml:lang="de">für das Bearbeiten mathematischer Probleme geeignete Darstellungen entwickeln, auswählen und nutzen</Description></Value>
+    <Value id="20"><Label xml:lang="de">5.2</Label><Description xml:lang="de">eine Darstellung in eine andere übertragen</Description></Value>
+    <Value id="21"><Label xml:lang="de">5.3</Label><Description xml:lang="de">Darstellungen miteinander vergleichen und bewerten</Description></Value>
+  </MDDef>
+  <MDDef id="3" type="listmultiselect">
+    <Label xml:lang="de">Bildungsstandards Ma inhaltsbezogen HSA/MSA</Label>
+    <Description xml:lang="de">
+      Inhaltsbezogene Bildungsstandards im Fach Mathematik für den Hauptschulabschluss (2004) und Mittleren Schulabschluss (2003)
+    </Description>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">8</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+    </MDDefMetadata>
+    <Value id="1"><Label xml:lang="de">1</Label><Description xml:lang="de">Zahlen und Operationen</Description></Value>
+    <Value id="2"><Label xml:lang="de">1.1</Label><Description xml:lang="de">Zahldarstellungen und Zahlbeziehungen verstehen</Description></Value>
+    <Value id="3"><Label xml:lang="de">1.1.a</Label><Description xml:lang="de">den Aufbau des dezimalen Stellenwertsystems verstehen</Description></Value>
+    <Value id="4"><Label xml:lang="de">1.1.b</Label><Description xml:lang="de">Zahlen bis 1.000.000 auf verschiedene Weise darstellen und zueinander in Beziehung setzen</Description></Value>
+    <Value id="5"><Label xml:lang="de">1.1.c</Label><Description xml:lang="de">sich im Zahlenraum bis 1.000.000 orientieren (z. B. Zahlen der Größe nach ordnen, runden)</Description></Value>
+    <Value id="6"><Label xml:lang="de">1.2</Label><Description xml:lang="de">Rechenoperationen verstehen und beherrschen</Description></Value>
+    <Value id="7"><Label xml:lang="de">1.2.a</Label><Description xml:lang="de">die vier Grundrechenarten und ihre Zusammenhänge verstehen</Description></Value>
+    <Value id="8"><Label xml:lang="de">1.2.b</Label><Description xml:lang="de">die Grundaufgaben des Kopfrechnens (Einspluseins, Einmaleins, Zahlzerlegungen) gedächtnismäßig beherrschen, deren Umkehrungen sicher ableiten und diese Grundkenntnisse auf analoge Aufgaben in größeren Zahlenräumen übertragen</Description></Value>
+    <Value id="9"><Label xml:lang="de">1.2.c</Label><Description xml:lang="de">mündliche und halbschriftliche Rechenstrategien verstehen und bei geeigneten Aufgaben anwenden</Description></Value>
+    <Value id="10"><Label xml:lang="de">1.2.d</Label><Description xml:lang="de">verschiedene Rechenwege vergleichen und bewerten; Rechenfehler finden, erklären und korrigieren</Description></Value>
+    <Value id="11"><Label xml:lang="de">1.2.e</Label><Description xml:lang="de">Rechengesetze erkennen, erklären und benutzen</Description></Value>
+    <Value id="12"><Label xml:lang="de">1.2.f</Label><Description xml:lang="de">schriftliche Verfahren der Addition, Subtraktion und Multiplikation verstehen, geläufig ausführen und bei geeigneten Aufgaben anwenden</Description></Value>
+    <Value id="13"><Label xml:lang="de">1.2.g</Label><Description xml:lang="de">Lösungen durch Überschlagsrechnungen und durch Anwenden der Umkehroperation kontrollieren</Description></Value>
+    <Value id="14"><Label xml:lang="de">1.3</Label><Description xml:lang="de">in Kontexten rechnen</Description></Value>
+    <Value id="15"><Label xml:lang="de">1.3.a</Label><Description xml:lang="de">Sachaufgaben lösen und dabei die Beziehungen zwischen der Sache und den einzelnen Lösungsschritten beschreiben</Description></Value>
+    <Value id="16"><Label xml:lang="de">1.3.b</Label><Description xml:lang="de">das Ergebnis auf Plausibilität prüfen</Description></Value>
+    <Value id="17"><Label xml:lang="de">1.3.c</Label><Description xml:lang="de">bei Sachaufgaben entscheiden, ob eine Überschlagsrechnung ausreicht oder ein genaues Ergebnis nötig ist</Description></Value>
+    <Value id="18"><Label xml:lang="de">1.3.d</Label><Description xml:lang="de">Sachaufgaben systematisch variieren</Description></Value>
+    <Value id="19"><Label xml:lang="de">1.3.e</Label><Description xml:lang="de">einfache kombinatorische Aufgaben (z.B. Knobelaufgaben) durch Probieren bzw. systematisches Vorgehen lösen</Description></Value>
+    <Value id="20"><Label xml:lang="de">2</Label><Description xml:lang="de">Raum und Form</Description></Value>
+    <Value id="21"><Label xml:lang="de">2.1</Label><Description xml:lang="de">sich im Raum orientieren</Description></Value>
+    <Value id="22"><Label xml:lang="de">2.1.a</Label><Description xml:lang="de">über räumliches Vorstellungsvermögen verfügen</Description></Value>
+    <Value id="23"><Label xml:lang="de">2.1.b</Label><Description xml:lang="de">räumliche Beziehungen erkennen, beschreiben und nutzen (Anordnungen, Wege, Pläne, Ansichten)</Description></Value>
+    <Value id="24"><Label xml:lang="de">2.1.c</Label><Description xml:lang="de">zwei- und dreidimensionale Darstellungen von Bauwerken (z.B. Würfelgebäuden) zueinander in Beziehung setzen (nach Vorlage bauen, zu Bauten Baupläne erstellen, Kantenmodelle und Netze untersuchen)</Description></Value>
+    <Value id="25"><Label xml:lang="de">2.2</Label><Description xml:lang="de">geometrische Figuren erkennen, benennen und darstellen</Description></Value>
+    <Value id="26"><Label xml:lang="de">2.2.a</Label><Description xml:lang="de">Körper und ebene Figuren nach Eigenschaften sortieren und Fachbegriffe zuordnen</Description></Value>
+    <Value id="27"><Label xml:lang="de">2.2.b</Label><Description xml:lang="de">Körper und ebene Figuren in der Umwelt wieder erkennen</Description></Value>
+    <Value id="28"><Label xml:lang="de">2.2.c</Label><Description xml:lang="de">Modelle von Körpern und ebenen Figuren herstellen und untersuchen (Bauen, Legen, Zerlegen, Zusammenfügen, Ausschneiden, Falten...)</Description></Value>
+    <Value id="29"><Label xml:lang="de">2.2.d</Label><Description xml:lang="de">Zeichnungen mit Hilfsmitteln sowie Freihandzeichnungen anfertigen</Description></Value>
+    <Value id="30"><Label xml:lang="de">2.3</Label><Description xml:lang="de">Einfache geometrische Abbildungen erkennen, benennen und darstellen</Description></Value>
+    <Value id="31"><Label xml:lang="de">2.3.a</Label><Description xml:lang="de">ebene Figuren in Gitternetzen abbilden (verkleinern und vergrößern)</Description></Value>
+    <Value id="32"><Label xml:lang="de">2.3.b</Label><Description xml:lang="de">Eigenschaften der Achsensymmetrie erkennen, beschreiben und nutzen</Description></Value>
+    <Value id="33"><Label xml:lang="de">2.3.c</Label><Description xml:lang="de">symmetrische Muster fortsetzen und selbst entwickeln</Description></Value>
+    <Value id="34"><Label xml:lang="de">2.4</Label><Description xml:lang="de">Flächen- und Rauminhalte vergleichen und messen</Description></Value>
+    <Value id="35"><Label xml:lang="de">2.4.a</Label><Description xml:lang="de">die Flächeninhalte ebener Figuren durch Zerlegen vergleichen und durch Auslegen mit Einheitsflächen messen</Description></Value>
+    <Value id="36"><Label xml:lang="de">2.4.b</Label><Description xml:lang="de">Umfang und Flächeninhalt von ebenen Figuren untersuchen</Description></Value>
+    <Value id="37"><Label xml:lang="de">2.4.c</Label><Description xml:lang="de">Rauminhalte vergleichen und durch die enthaltene Anzahl von Einheitswürfeln bestimmen</Description></Value>
+    <Value id="38"><Label xml:lang="de">3</Label><Description xml:lang="de">Muster und Strukturen</Description></Value>
+    <Value id="39"><Label xml:lang="de">3.1</Label><Description xml:lang="de">Gesetzmäßigkeiten erkennen, beschreiben und darstellen</Description></Value>
+    <Value id="40"><Label xml:lang="de">3.1.a</Label><Description xml:lang="de">strukturierte Zahldarstellungen (z.B. Hunderter-Tafel) verstehen und nutzen</Description></Value>
+    <Value id="41"><Label xml:lang="de">3.1.b</Label><Description xml:lang="de">Gesetzmäßigkeiten in geometrischen und arithmetischen Mustern (z. B. in Zahlenfolgen oder strukturierten Aufgabenfolgen) erkennen, beschreiben und fortsetzen</Description></Value>
+    <Value id="42"><Label xml:lang="de">3.1.c</Label><Description xml:lang="de">arithmetische und geometrische Muster selbst entwickeln, systematisch verändern und beschreiben</Description></Value>
+    <Value id="43"><Label xml:lang="de">3.2</Label><Description xml:lang="de">funktionale Beziehungen erkennen, beschreiben und darstellen</Description></Value>
+    <Value id="44"><Label xml:lang="de">3.2.a</Label><Description xml:lang="de">funktionale Beziehungen in Sachsituationen erkennen, sprachlich beschreiben (z.B. Menge - Preis) und entsprechende Aufgaben lösen</Description></Value>
+    <Value id="45"><Label xml:lang="de">3.2.b</Label><Description xml:lang="de">funktionale Beziehungen in Tabellen darstellen und untersuchen</Description></Value>
+    <Value id="46"><Label xml:lang="de">3.2.c</Label><Description xml:lang="de">einfache Sachaufgaben zur Proportionalität lösen</Description></Value>
+    <Value id="47"><Label xml:lang="de">4</Label><Description xml:lang="de">Größen und Messen</Description></Value>
+    <Value id="48"><Label xml:lang="de">4.1</Label><Description xml:lang="de">Größenvorstellungen besitzen</Description></Value>
+    <Value id="49"><Label xml:lang="de">4.1.a</Label><Description xml:lang="de">Standardeinheiten aus den Bereichen Geldwerte, Längen, Zeitspannen, Gewichte und Rauminhalte kennen</Description></Value>
+    <Value id="50"><Label xml:lang="de">4.1.b</Label><Description xml:lang="de">Größen vergleichen, messen und schätzen</Description></Value>
+    <Value id="51"><Label xml:lang="de">4.1.c</Label><Description xml:lang="de">Repräsentanten für Standardeinheiten kennen, die im Alltag wichtig sind</Description></Value>
+    <Value id="52"><Label xml:lang="de">4.1.d</Label><Description xml:lang="de">Größenangaben in unterschiedlichen Schreibweisen darstellen (umwandeln)</Description></Value>
+    <Value id="53"><Label xml:lang="de">4.1.e</Label><Description xml:lang="de">im Alltag gebräuchliche einfache Bruchzahlen im Zusammenhang mit Größen kennen und verstehen</Description></Value>
+    <Value id="54"><Label xml:lang="de">4.2</Label><Description xml:lang="de">mit Größen in Sachsituationen umgehen</Description></Value>
+    <Value id="55"><Label xml:lang="de">4.2.a</Label><Description xml:lang="de">mit geeigneten Einheiten und unterschiedlichen Messgeräten sachgerecht messen</Description></Value>
+    <Value id="56"><Label xml:lang="de">4.2.b</Label><Description xml:lang="de">wichtige Bezugsgrößen aus der Erfahrungswelt zum Lösen von Sachproblemen heranziehen</Description></Value>
+    <Value id="57"><Label xml:lang="de">4.2.c</Label><Description xml:lang="de">in Sachsituationen angemessen mit Näherungswerten rechnen, dabei Größen begründet schätzen</Description></Value>
+    <Value id="58"><Label xml:lang="de">4.2.d</Label><Description xml:lang="de">Sachaufgaben mit Größen lösen</Description></Value>
+    <Value id="59"><Label xml:lang="de">5</Label><Description xml:lang="de">Daten, Häufigkeit und Wahrscheinlichkeit</Description></Value>
+    <Value id="60"><Label xml:lang="de">5.1</Label><Description xml:lang="de">Daten erfassen und darstellen</Description></Value>
+    <Value id="61"><Label xml:lang="de">5.1.a</Label><Description xml:lang="de">in Beobachtungen, Untersuchungen und einfachen Experimenten Daten sammeln, strukturieren und in Tabellen, Schaubildern und Diagrammen darstellen</Description></Value>
+    <Value id="62"><Label xml:lang="de">5.1.b</Label><Description xml:lang="de">aus Tabellen, Schaubildern und Diagrammen Informationen entnehmen</Description></Value>
+    <Value id="63"><Label xml:lang="de">5.2</Label><Description xml:lang="de">Wahrscheinlichkeiten von Ereignissen in Zufallsexperimenten vergleichen</Description></Value>
+    <Value id="64"><Label xml:lang="de">5.2.a</Label><Description xml:lang="de">Grundbegriffe kennen (z. B. sicher, unmöglich, wahrscheinlich)</Description></Value>
+    <Value id="65"><Label xml:lang="de">5.2.b</Label><Description xml:lang="de">Gewinnchancen bei einfachen Zufallsexperimenten (z. B. bei Würfelspielen) einschätzen</Description></Value>
+  </MDDef>
+  <MDDef id="4" type="listmultiselect">
+    <Label xml:lang="de">Kompetenzbereich Ma HSA/MSA (Leitidee)</Label>
+    <Description xml:lang="de">
+      Inhaltsbezogene Kompetenzbereiche (Leitideen) im Fach Mathematik für den Hauptschulabschluss (2004) und Mittleren Schulabschluss (2003)
+    </Description>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">8</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+    </MDDefMetadata>
+    <Value id="1"><Label xml:lang="de">Zahl (L1)</Label></Value>
+    <Value id="2"><Label xml:lang="de">Messen (L2)</Label></Value>
+    <Value id="3"><Label xml:lang="de">Raum und Form (L3)</Label></Value>
+    <Value id="4"><Label xml:lang="de">Funktionaler Zusammenhang (L4)</Label></Value>
+    <Value id="5"><Label xml:lang="de">Daten und Zufall (L5)</Label></Value>
+  </MDDef>
+  <MDDef id="5" type="listmultiselect">
+    <Label xml:lang="de">Kompetenzbereich Ma Primar (Leitidee)</Label>
+    <Description xml:lang="de">
+      Inhaltsbezogene Kompetenzbereiche (Leitideen) im Fach Mathematik für den Primarbereich (2004)
+    </Description>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">7</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+    </MDDefMetadata>
+    <Value id="1"><Label xml:lang="de">1. Zahlen und Operationen</Label></Value>
+    <Value id="2"><Label xml:lang="de">2. Raum und Form</Label></Value>
+    <Value id="3"><Label xml:lang="de">3. Muster und Strukturen</Label></Value>
+    <Value id="4"><Label xml:lang="de">4. Größen und Messen</Label></Value>
+    <Value id="5"><Label xml:lang="de">5. Daten, Häufigkeit und Wahrscheinlichkeit</Label></Value>
+  </MDDef>
+  <MDDef id="6" type="listmultiselect">
+    <Label xml:lang="de">Anforderungsbereich Ma Primar</Label>
+    <Description xml:lang="de">
+      Anforderungsbereiche im Fach Mathematik für den Primarbereich (2004)
+    </Description>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">7</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+    </MDDefMetadata>
+    <Value id="1"><Label xml:lang="de">I</Label><Description xml:lang="de">Reproduzieren</Description></Value>
+    <Value id="2"><Label xml:lang="de">II</Label><Description xml:lang="de">Zusammenhänge herstellen</Description></Value>
+    <Value id="3"><Label xml:lang="de">III</Label><Description xml:lang="de">Verallgemeinern und Reflektieren</Description></Value>
+  </MDDef>
+  <MDDef id="7" type="listmultiselect">
+    <Label xml:lang="de">Anforderungsbereich Ma HSA/MSA</Label>
+    <Description xml:lang="de">
+      Anforderungsbereiche im Fach Mathematik für den Hauptschulabschluss (2004) und Mittleren Schulabschluss (2003)
+    </Description>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">8</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+    </MDDefMetadata>
+    <Value id="1"><Label xml:lang="de">I</Label><Description xml:lang="de">Reproduzieren</Description></Value>
+    <Value id="2"><Label xml:lang="de">II</Label><Description xml:lang="de">Zusammenhänge herstellen</Description></Value>
+    <Value id="3"><Label xml:lang="de">III</Label><Description xml:lang="de">Verallgemeinern und Reflektieren</Description></Value>
   </MDDef>
 </MDCat>
