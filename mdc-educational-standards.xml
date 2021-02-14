@@ -183,4 +183,35 @@
     <Value id="2"><Label xml:lang="de">II</Label><Description xml:lang="de">Zusammenhänge herstellen</Description></Value>
     <Value id="3"><Label xml:lang="de">III</Label><Description xml:lang="de">Verallgemeinern und Reflektieren</Description></Value>
   </MDDef>
+  <MDDef id="8" type="listsingleselect">
+    <Label xml:lang="de">Kompetenzstufe Ma Primar</Label>
+    <Description xml:lang="de">
+      Kompetenzstufen im Fach Mathematik für den Primarbereich (2017)
+    </Description>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">7</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+    </MDDefMetadata>
+    <Value id="1"><Label xml:lang="de">I</Label></Value>
+    <Value id="2"><Label xml:lang="de">II</Label></Value>
+    <Value id="3"><Label xml:lang="de">III</Label></Value>
+    <Value id="4"><Label xml:lang="de">IV</Label></Value>
+    <Value id="5"><Label xml:lang="de">V</Label></Value>
+  </MDDef>
+  <MDDef id="9" type="listsingleselect">
+    <Label xml:lang="de">Kompetenzstufe Ma HSA/MSA</Label>
+    <Description xml:lang="de">
+      Kompetenzstufen im Fach Mathematik für den Hauptschulabschluss und Mittleren Schulabschluss (2013)
+    </Description>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">8</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">4 11</MD>
+    </MDDefMetadata>
+    <Value id="1"><Label xml:lang="de">I.a</Label></Value>
+    <Value id="2"><Label xml:lang="de">I.b</Label></Value>
+    <Value id="3"><Label xml:lang="de">II</Label></Value>
+    <Value id="4"><Label xml:lang="de">III</Label></Value>
+    <Value id="5"><Label xml:lang="de">IV</Label></Value>
+    <Value id="6"><Label xml:lang="de">V</Label></Value>
+  </MDDef>
 </MDCat>
