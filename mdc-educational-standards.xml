@@ -22,9 +22,9 @@
     <Value id="6"><Label xml:lang="de">K6</Label><Description xml:lang="de">Mathematisch kommunizieren</Description></Value>
   </MDDef>
   <MDDef id="2" type="listmultiselect">
-    <Label xml:lang="de">Bildungsstandards Ma inhaltsbezogen Primar</Label>
+    <Label xml:lang="de">Bildungsstandards Ma allgemein Primar</Label>
     <Description xml:lang="de">
-      Inhaltsbezogene Bildungsstandards im Fach Mathematik für den Primarbereich (2004)
+      Allgemeine Bildungsstandards im Fach Mathematik für den Primarbereich (2004)
     </Description>
     <MDDefMetadata>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">7</MD>
@@ -53,12 +53,12 @@
     <Value id="21"><Label xml:lang="de">5.3</Label><Description xml:lang="de">Darstellungen miteinander vergleichen und bewerten</Description></Value>
   </MDDef>
   <MDDef id="3" type="listmultiselect">
-    <Label xml:lang="de">Bildungsstandards Ma inhaltsbezogen HSA/MSA</Label>
+    <Label xml:lang="de">Bildungsstandards Ma inhaltsbezogen Primar</Label>
     <Description xml:lang="de">
-      Inhaltsbezogene Bildungsstandards im Fach Mathematik für den Hauptschulabschluss (2004) und Mittleren Schulabschluss (2003)
+      Inhaltsbezogene Bildungsstandards im Fach Mathematik für den Primarbereich (2004)
     </Description>
     <MDDefMetadata>
-      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">8</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">7</MD>
       <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
     </MDDefMetadata>
     <Value id="1"><Label xml:lang="de">1</Label><Description xml:lang="de">Zahlen und Operationen</Description></Value>
@@ -213,5 +213,130 @@
     <Value id="4"><Label xml:lang="de">III</Label></Value>
     <Value id="5"><Label xml:lang="de">IV</Label></Value>
     <Value id="6"><Label xml:lang="de">V</Label></Value>
+  </MDDef>
+  <MDDef id="10" type="listmultiselect">
+    <Label xml:lang="de">Bildungsstandards Ma inhaltsbezogen HSA/MSA</Label>
+    <Description xml:lang="de">
+      Inhaltsbezogene Bildungsstandards im Fach Mathematik für den Hauptschulabschluss (2004) und Mittleren Schulabschluss (2003)
+    </Description>
+    <MDDefMetadata>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="1">8</MD>
+      <MD cat="DOI:10.5159/IQB_MDR_Core_v1" def="2">11</MD>
+    </MDDefMetadata>
+    <Value id="78"><Label xml:lang="de">1</Label><Description xml:lang="de">Zahl</Description></Value>
+    <Value id="1"><Label xml:lang="de">1.01</Label><Description xml:lang="de">Zahlvorstellungen</Description></Value>
+    <Value id="115"><Label xml:lang="de">1.01L</Label></Value>
+    <Value id="2"><Label xml:lang="de">1.02</Label><Description xml:lang="de">Darstellung</Description></Value>
+    <Value id="79"><Label xml:lang="de">1.02L</Label></Value>
+    <Value id="3"><Label xml:lang="de">1.03h</Label><Description xml:lang="de">Rechnen</Description></Value>
+    <Value id="80"><Label xml:lang="de">1.03L</Label></Value>
+    <Value id="4"><Label xml:lang="de">1.03m</Label><Description xml:lang="de">Zahlbereichserweiterungen</Description></Value>
+    <Value id="5"><Label xml:lang="de">1.04</Label><Description xml:lang="de">Rechengesetze</Description></Value>
+    <Value id="81"><Label xml:lang="de">1.04L</Label></Value>
+    <Value id="6"><Label xml:lang="de">1.05h</Label><Description xml:lang="de">Überschlag</Description></Value>
+    <Value id="82"><Label xml:lang="de">1.05L</Label></Value>
+    <Value id="7"><Label xml:lang="de">1.05m</Label><Description xml:lang="de">Kontrollverfahren</Description></Value>
+    <Value id="8"><Label xml:lang="de">1.06h</Label><Description xml:lang="de">Runden</Description></Value>
+    <Value id="83"><Label xml:lang="de">1.06L</Label></Value>
+    <Value id="9"><Label xml:lang="de">1.06m</Label><Description xml:lang="de">Runden</Description></Value>
+    <Value id="10"><Label xml:lang="de">1.07</Label><Description xml:lang="de">Prozent, Zins</Description></Value>
+    <Value id="84"><Label xml:lang="de">1.07L</Label></Value>
+    <Value id="11"><Label xml:lang="de">1.08</Label><Description xml:lang="de">Zusammenhang Rechenoperationen</Description></Value>
+    <Value id="85"><Label xml:lang="de">1.08L</Label></Value>
+    <Value id="12"><Label xml:lang="de">1.09h</Label><Description xml:lang="de">Algorithmen, Kalküle</Description></Value>
+    <Value id="86"><Label xml:lang="de">1.09L</Label></Value>
+    <Value id="13"><Label xml:lang="de">1.09m</Label><Description xml:lang="de">Algorithmen, Kalküle</Description></Value>
+    <Value id="14"><Label xml:lang="de">1.10h</Label><Description xml:lang="de">Ergebnisprüfung</Description></Value>
+    <Value id="87"><Label xml:lang="de">1.10L</Label></Value>
+    <Value id="15"><Label xml:lang="de">1.10m</Label><Description xml:lang="de">Ergebnisprüfung, Modelleinschätzung</Description></Value>
+    <Value id="16"><Label xml:lang="de">1.11m</Label><Description xml:lang="de">Kombinatorik</Description></Value>
+    <Value id="17"><Label xml:lang="de">2</Label><Description xml:lang="de">Messen</Description></Value>
+    <Value id="18"><Label xml:lang="de">2.01</Label><Description xml:lang="de">Messprinzip</Description></Value>
+    <Value id="88"><Label xml:lang="de">2.01L</Label></Value>
+    <Value id="19"><Label xml:lang="de">2.02h</Label><Description xml:lang="de">Einheiten</Description></Value>
+    <Value id="89"><Label xml:lang="de">2.02L</Label></Value>
+    <Value id="20"><Label xml:lang="de">2.02m</Label><Description xml:lang="de">Einheiten</Description></Value>
+    <Value id="21"><Label xml:lang="de">2.03h</Label><Description xml:lang="de">Schätzen</Description></Value>
+    <Value id="90"><Label xml:lang="de">2.03L</Label></Value>
+    <Value id="22"><Label xml:lang="de">2.03m</Label><Description xml:lang="de">Schätzen</Description></Value>
+    <Value id="23"><Label xml:lang="de">2.04h</Label><Description xml:lang="de">Flächeninhalt, Umfang</Description></Value>
+    <Value id="91"><Label xml:lang="de">2.04L</Label></Value>
+    <Value id="24"><Label xml:lang="de">2.04m</Label><Description xml:lang="de">Flächeninhalt, Umfang</Description></Value>
+    <Value id="25"><Label xml:lang="de">2.05h</Label><Description xml:lang="de">Volumen, Oberfläche</Description></Value>
+    <Value id="92"><Label xml:lang="de">2.05L</Label></Value>
+    <Value id="26"><Label xml:lang="de">2.05m</Label><Description xml:lang="de">Volumen, Oberfläche</Description></Value>
+    <Value id="27"><Label xml:lang="de">2.06h</Label><Description xml:lang="de">Messen in der Umwelt</Description></Value>
+    <Value id="93"><Label xml:lang="de">2.06L</Label></Value>
+    <Value id="28"><Label xml:lang="de">2.06m</Label><Description xml:lang="de">Messen in der Umwelt</Description></Value>
+    <Value id="29"><Label xml:lang="de">2.07m</Label><Description xml:lang="de">Strecken, Winkel</Description></Value>
+    <Value id="30"><Label xml:lang="de">3</Label><Description xml:lang="de">Raum und Form</Description></Value>
+    <Value id="31"><Label xml:lang="de">3.01h</Label><Description xml:lang="de">Objekte</Description></Value>
+    <Value id="94"><Label xml:lang="de">3.01L</Label></Value>
+    <Value id="32"><Label xml:lang="de">3.01m</Label><Description xml:lang="de">Strukturen</Description></Value>
+    <Value id="33"><Label xml:lang="de">3.02</Label><Description xml:lang="de">Gedankenoperationen</Description></Value>
+    <Value id="95"><Label xml:lang="de">3.02L</Label></Value>
+    <Value id="34"><Label xml:lang="de">3.03h</Label><Description xml:lang="de">ebenes Koordinatensystem</Description></Value>
+    <Value id="96"><Label xml:lang="de">3.03L</Label></Value>
+    <Value id="35"><Label xml:lang="de">3.03m</Label><Description xml:lang="de">Koordinatensystem</Description></Value>
+    <Value id="36"><Label xml:lang="de">3.04</Label><Description xml:lang="de">Körperdarstellungen</Description></Value>
+    <Value id="97"><Label xml:lang="de">3.04L</Label></Value>
+    <Value id="37"><Label xml:lang="de">3.05h</Label><Description xml:lang="de">Objektklassifizierung</Description></Value>
+    <Value id="98"><Label xml:lang="de">3.05L</Label></Value>
+    <Value id="38"><Label xml:lang="de">3.05m</Label><Description xml:lang="de">Objektanalyse</Description></Value>
+    <Value id="39"><Label xml:lang="de">3.06h</Label><Description xml:lang="de">Symmetrie</Description></Value>
+    <Value id="99"><Label xml:lang="de">3.06L</Label></Value>
+    <Value id="40"><Label xml:lang="de">3.06m</Label><Description xml:lang="de">Objekteigenschaften</Description></Value>
+    <Value id="41"><Label xml:lang="de">3.07h</Label><Description xml:lang="de">Satzanwendung</Description></Value>
+    <Value id="100"><Label xml:lang="de">3.07L</Label></Value>
+    <Value id="42"><Label xml:lang="de">3.07m</Label><Description xml:lang="de">Satzanwendung</Description></Value>
+    <Value id="43"><Label xml:lang="de">3.08</Label><Description xml:lang="de">Konstruktionen mit Hilfsmitteln</Description></Value>
+    <Value id="101"><Label xml:lang="de">3.08L</Label></Value>
+    <Value id="44"><Label xml:lang="de">3.09m</Label><Description xml:lang="de">Lösbarkeit</Description></Value>
+    <Value id="45"><Label xml:lang="de">3.10m</Label><Description xml:lang="de">Hilfsmittel</Description></Value>
+    <Value id="46"><Label xml:lang="de">4</Label><Description xml:lang="de">Funktionaler Zusammenhang</Description></Value>
+    <Value id="47"><Label xml:lang="de">4.01h</Label><Description xml:lang="de">Funktionen im Alltag</Description></Value>
+    <Value id="102"><Label xml:lang="de">4.01L</Label></Value>
+    <Value id="48"><Label xml:lang="de">4.01m</Label><Description xml:lang="de">quantitative Funktionen</Description></Value>
+    <Value id="49"><Label xml:lang="de">4.02h</Label><Description xml:lang="de">untersch. Darstellungsformen</Description></Value>
+    <Value id="103"><Label xml:lang="de">4.02L</Label></Value>
+    <Value id="50"><Label xml:lang="de">4.02m</Label><Description xml:lang="de">Zusammenhänge darstellen</Description></Value>
+    <Value id="51"><Label xml:lang="de">4.03h</Label><Description xml:lang="de">Zuordnungen</Description></Value>
+    <Value id="104"><Label xml:lang="de">4.03L</Label></Value>
+    <Value id="52"><Label xml:lang="de">4.03m</Label><Description xml:lang="de">Zuordnungen</Description></Value>
+    <Value id="53"><Label xml:lang="de">4.04h</Label><Description xml:lang="de">Prozentuales Wachstum</Description></Value>
+    <Value id="105"><Label xml:lang="de">4.04L</Label></Value>
+    <Value id="54"><Label xml:lang="de">4.04m</Label><Description xml:lang="de">Anwendung Zuordnung</Description></Value>
+    <Value id="55"><Label xml:lang="de">4.05h</Label><Description xml:lang="de">Maßstab</Description></Value>
+    <Value id="106"><Label xml:lang="de">4.05L</Label></Value>
+    <Value id="56"><Label xml:lang="de">4.06m</Label><Description xml:lang="de">LGS grafisch</Description></Value>
+    <Value id="57"><Label xml:lang="de">4.07h</Label><Description xml:lang="de">Lineare Gleichungen</Description></Value>
+    <Value id="107"><Label xml:lang="de">4.07L</Label></Value>
+    <Value id="58"><Label xml:lang="de">4.07m</Label><Description xml:lang="de">Gleichungen, Verfahren</Description></Value>
+    <Value id="59"><Label xml:lang="de">4.08h</Label><Description xml:lang="de">Vergleich Lösungsverfahren</Description></Value>
+    <Value id="108"><Label xml:lang="de">4.08L</Label></Value>
+    <Value id="60"><Label xml:lang="de">4.08m</Label><Description xml:lang="de">Gleichungen, Lösbarkeit</Description></Value>
+    <Value id="61"><Label xml:lang="de">4.09m</Label><Description xml:lang="de">Merkmale von Funktionen</Description></Value>
+    <Value id="62"><Label xml:lang="de">4.10m</Label><Description xml:lang="de">Anwendung Funktionen</Description></Value>
+    <Value id="63"><Label xml:lang="de">4.11m</Label><Description xml:lang="de">Sinusfunktion</Description></Value>
+    <Value id="64"><Label xml:lang="de">4.12m</Label><Description xml:lang="de">Größenänderungen</Description></Value>
+    <Value id="65"><Label xml:lang="de">4.13m</Label><Description xml:lang="de">Sachsituationen</Description></Value>
+    <Value id="66"><Label xml:lang="de">5</Label><Description xml:lang="de">Daten und Zufall</Description></Value>
+    <Value id="67"><Label xml:lang="de">5.01</Label><Description xml:lang="de">Datenauswertung</Description></Value>
+    <Value id="109"><Label xml:lang="de">5.01L</Label></Value>
+    <Value id="68"><Label xml:lang="de">5.02m</Label><Description xml:lang="de">Planung von Erhebungen</Description></Value>
+    <Value id="69"><Label xml:lang="de">5.03</Label><Description xml:lang="de">Datensammlung</Description></Value>
+    <Value id="110"><Label xml:lang="de">5.03L</Label></Value>
+    <Value id="70"><Label xml:lang="de">5.04h</Label><Description xml:lang="de">Berechnung/Interpretation</Description></Value>
+    <Value id="111"><Label xml:lang="de">5.04L</Label></Value>
+    <Value id="71"><Label xml:lang="de">5.04m</Label><Description xml:lang="de">Dateninterpretation</Description></Value>
+    <Value id="72"><Label xml:lang="de">5.05h</Label><Description xml:lang="de">Zufallserscheinungen</Description></Value>
+    <Value id="112"><Label xml:lang="de">5.05L</Label></Value>
+    <Value id="73"><Label xml:lang="de">5.05m</Label><Description xml:lang="de">Bewertung Argumente</Description></Value>
+    <Value id="74"><Label xml:lang="de">5.06h</Label><Description xml:lang="de">Wahrscheinlichkeit im Alltag</Description></Value>
+    <Value id="113"><Label xml:lang="de">5.06L</Label></Value>
+    <Value id="75"><Label xml:lang="de">5.06m</Label><Description xml:lang="de">Zufall im Alltag</Description></Value>
+    <Value id="76"><Label xml:lang="de">5.07h</Label><Description xml:lang="de">Wahrscheinlichkeiten in Zufallsexperimenten</Description></Value>
+    <Value id="114"><Label xml:lang="de">5.07L</Label></Value>
+    <Value id="77"><Label xml:lang="de">5.07m</Label><Description xml:lang="de">Wahrscheinlichkeiten in Zufallsexperimenten</Description></Value>
   </MDDef>
 </MDCat>
