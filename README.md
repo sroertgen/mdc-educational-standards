@@ -9,4 +9,7 @@ Die Syntax des Katalogs basiert auf dem [Metadaten-System des IQB](https://githu
 
 Für eine bessere Lesbarkeit dieses Katalogs bitte [hier](docs/catalog.md) klicken.
 
-Die Programmierungen dieses Repos basieren auf node.js. Sie dienen der Validierung und Umformung der ursprünglichen XML in andere Zielformate: [Markdown zur besseren Lesbarkeit](docs/catalog.md) und Turtle zur Veröffentlichung als SKOS im Rahmen der Projekte der [KIM OER Metadatengruppe](https://wiki.dnb.de/display/DINIAGKIM/OER-Metadatengruppe) (in Vorbereitung).
+## For Developers
+Die Programmierungen dieses Repos basieren auf node.js. Sie dienen der Validierung und Umformung der ursprünglichen XML in andere Zielformate: [Markdown zur besseren Lesbarkeit](docs/catalog.md) und Turtle zur Veröffentlichung als SKOS im Rahmen der Projekte der [KIM OER Metadatengruppe](https://wiki.dnb.de/display/DINIAGKIM/OER-Metadatengruppe) (in Vorbereitung). Zur Ausführung ist zunächst [node.js](https://nodejs.org/en/download/) global zu installieren, dann das Repo lokal zu klonen und dann `npm install` aufzurufen, um die notwendigen Module/Pakete zu installieren.
+
+Nach jeder Änderung an der XML soll stets `npm run start` aufgerufen werden, um die Änderungen in die abgeleiteten Repräsentationen zu übertragen.
