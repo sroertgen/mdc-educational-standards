@@ -13,7 +13,7 @@
     "xpath": "^0.0.32"
   },
   "scripts": {
-    "start": "node mdc-xml2md.js",
+    "start": "node scripts/mdc-xml2md.js mdc-educational-standards.xml",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Institute for Educational Quality Improvement (IQB)",
