@@ -1,0 +1,21 @@
+{
+  "name": "mdc-educational-standards",
+  "version": "0.1.0",
+  "description": "Dieses Repository enthält die Metadatendefinitionen, die das IQB für Aufgaben und Items verwendet. Es handelt sich dabei nur um die Metadatendefinitionen, die sich auf die Bildungsstandards bzw. auf die Kompetenzstufen beziehen.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iqb-berlin/mdc-educational-standards"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@iqb/eslint-config": "0.0.8",
+    "xmldom": "^0.4.0",
+    "xpath": "^0.0.32"
+  },
+  "scripts": {
+    "start": "node mdc-xml2md.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Institute for Educational Quality Improvement (IQB)",
+  "license": "CC BY-SA 4.0"
+}
