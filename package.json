@@ -6,11 +6,12 @@
     "type": "git",
     "url": "https://github.com/iqb-berlin/mdc-educational-standards"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "@iqb/eslint-config": "0.0.8",
+  "dependencies": {
     "xmldom": "^0.4.0",
     "xpath": "^0.0.32"
+  },
+  "devDependencies": {
+    "@iqb/eslint-config": "0.0.8"
   },
   "scripts": {
     "start": "node scripts/mdc-xml2md.js mdc-educational-standards.xml",
@@ -19,6 +20,9 @@
   "author": "Institute for Educational Quality Improvement (IQB)",
   "license": "CC BY-SA 4.0",
   "eslintConfig": {
-    "extends": "@iqb/eslint-config"
+    "extends": "@iqb/eslint-config/javascript",
+    "rules": {
+      "no-console": "off"
+    }
   }
 }
