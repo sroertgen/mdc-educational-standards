@@ -17,5 +17,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Institute for Educational Quality Improvement (IQB)",
-  "license": "CC BY-SA 4.0"
+  "license": "CC BY-SA 4.0",
+  "eslintConfig": {
+    "extends": "@iqb/eslint-config"
+  }
 }
