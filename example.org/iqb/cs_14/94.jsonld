@@ -1,8 +1,8 @@
 {
   "id": "http://example.org/iqb/cs_14/94",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example.org%2Fiqb%2Fcs_14%2F94",
-  "inbox": "https://test.skohub.io/inbox?target=example.org%2Fiqb%2Fcs_14%2F94",
+  "followers": "https://test.skohub.io/followers?subject=public%2Fexample.org%2Fiqb%2Fcs_14%2F94",
+  "inbox": "https://test.skohub.io/inbox?target=public%2Fexample.org%2Fiqb%2Fcs_14%2F94",
   "prefLabel": {
     "de": "3.3.8"
   },

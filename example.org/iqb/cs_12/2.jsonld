@@ -1,8 +1,8 @@
 {
   "id": "http://example.org/iqb/cs_12/2",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=example.org%2Fiqb%2Fcs_12%2F2",
-  "inbox": "https://test.skohub.io/inbox?target=example.org%2Fiqb%2Fcs_12%2F2",
+  "followers": "https://test.skohub.io/followers?subject=public%2Fexample.org%2Fiqb%2Fcs_12%2F2",
+  "inbox": "https://test.skohub.io/inbox?target=public%2Fexample.org%2Fiqb%2Fcs_12%2F2",
   "prefLabel": {
     "de": "Schreiben"
   },
