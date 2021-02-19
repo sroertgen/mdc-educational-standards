@@ -57,7 +57,10 @@ def buildGraph(cs):
     base_url = URIRef("http://example.org/iqb/cs_" + conceptScheme.id + "/")
     
     g.add((base_url, RDF.type, SKOS.ConceptScheme))
+    g.add((base_url, DCTERMS.creator, Literal("IQB - Institut zur Qualitätsentwicklung im Bildungswesen", lang="de")))
     g.add((base_url, DCTERMS.title, Literal(conceptScheme.label.value, lang=conceptScheme.label.lang )))
+    if conceptScheme.definition:
+        g.add((base_url, DCTERMS.description, Literal(conceptScheme.definition.value, lang=conceptScheme.definition.lang)))
 
     for concept in concepts:
         concept_url = base_url + concept.id
